@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .border {
+    @apply size-6 w-8 h-8 mx-1 mt-[4px]  p-1   border-[1px] border-solid border-gray-200 rounded-[4px] hover:border-blue-500;
+  }
+}
+@layer components {
+  .search {
+    @apply w-[700px] h-10 outline-none bg-gray-200 rounded-md pr-7 ml-2 text-[14px];
+  }
+}
+@layer components {
+  .badge {
+    @apply items-center text-center w-5 h-5 border-2  rounded-full text-xs font-sans  bg-blue-500 text-white;
+  }
+}
+@layer components {
+  .circle {
+    @apply w-[40px] h-[40px] border-[1px] rounded-full p-[8px];
+  }
+}
